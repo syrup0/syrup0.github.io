@@ -3,6 +3,22 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<title>MOONPEOPLE</title>
+
+	<script type="text/javascript">
+		function playAudio() {
+			document.getElementById("sweetmusic").play();
+			document.getElementById("volumebutton").style.display = "block";
+			document.getElementById("volumebutton2").style.display = "none";
+		}
+
+		function pauseAudio() {
+			document.getElementById("sweetmusic").pause();
+			document.getElementById("volumebutton").style.display = "none";
+			document.getElementById("volumebutton2").style.display = "block";
+		}
+
+	</script>
+
 		<style>
 			@font-face { font-family: normal; src: url('FZLTCXHJW.TTF'); } 
 
@@ -44,9 +60,21 @@
 				100%{opacity:1}
 			}
 			html {
-				animation: fadein 1s 1s;
+				animation: fadein 2s 0.5s;
 				opacity:0;
 				animation-fill-mode:both;
+			}
+			.linky {
+				cursor: pointer;
+				position: fixed;
+				top: 10px;
+				right: 10px;
+			}
+			#volumebutton {
+				display: block;
+			}
+			#volumebutton2 {
+				display: none;
 			}
 		</style>
 	<link rel="icon" type="image/png" href="moon-icon.png" sizes="32x32" />
@@ -58,7 +86,13 @@
 	<h1><a href="https://soundcloud.com/kaleid0skull">SOUNDCLOUD.</a></h1>
 	<h1><a href="https://kaleid0skull.bandcamp.com/">BANDCAMP.</a></h1>
 	<h1><a href="mailto:moonboy@moonpeople.space">EMAIL.</a></h1>
-	<audio controls autoplay loop>
+	<div id="volumebutton">
+		<i onclick="pauseAudio()" class="fa fa-volume-up linky"></i>
+	</div>
+	<div id="volumebutton2">
+		<i onclick="playAudio()" class="fa fa-volume-off linky"></i>
+	</div>
+	<audio controls autoplay loop id="sweetmusic">
 		<source src="warmloop.mp3" type="audio/mpeg">
 	</audio>
 </body>
