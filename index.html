@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<title>MOONPEOPLE</title>
-	<style>
-		@font-face { font-family: normal; src: url('FZLTCXHJW.TTF'); } 
+		<style>
+			@font-face { font-family: normal; src: url('FZLTCXHJW.TTF'); } 
 
-		p,li,h1,h2,h3,h4,h5,h6, {
-			font-family: normal;
-			font-size: 40px;
-			margin: 0 auto;
-			padding: 20px;
-		}
+			p,li,h1,h2,h3,h4,h5,h6, {
+				font-family: normal;
+				font-size: 40px;
+				margin: 0 auto;
+				padding: 20px;
+			}
 
-		img {
-			display: lign-block;
-			margin: 0 auto;
-			padding: 20px;
-		}
+			img {
+				display: lign-block;
+				margin: 0 auto;
+				padding: 20px;
+			}
 
-		a:hover {
-			letter-spacing: 5px;
-		}
+			a:hover {
+				letter-spacing: 5px;
+				transition: all 0.1s;
+			}
 
-		a:link {
-			text-decoration: none;
-		}
+			a:link {
+				text-decoration: none;
+				transition: all 0.1s;
+			}
 
-		a {
-			color: #000000;
-			font-family: normal;
-			font-size: 40px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-		audio {
-			display: none;
-		}
-		body {
-			background-image: url("IMG_1328.jpg");
-			background-size: cover;
-		}
-	</style>
+			a {
+				color: #000000;
+				font-family: normal;
+				font-size: 40px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			audio {
+				display: none;
+			}
+			@keyframes fadein {
+				0%{opacity:0;}
+				100%{opacity:1}
+			}
+			html {
+				animation: fadein 1s 1s;
+				opacity:0;
+				animation-fill-mode:both;
+			}
+		</style>
 	<link rel="icon" type="image/png" href="moon-icon.png" sizes="32x32" />
 </head>
 <body>
