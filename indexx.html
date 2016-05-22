@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<title>hi</title>
+	<title>get moonbeats by kaleidoskull</title>
 	<script type="text/javascript">
 		function playAudio() {
 			document.getElementById("sweetmusic").play();
@@ -29,14 +29,14 @@
 				padding: 20px;
 			}
 
-			i:hover {
-				font-size: 40px;
-				transition: all 1s;
+			a:hover {
+				letter-spacing: 3px;
+				transition: all 0.1s;
 			}
 
-			i {
-				font-size: 30px;
-				transition: all 0.5s;
+			a:link {
+				text-decoration: none;
+				transition: all 0.1s;
 			}
 
 			a {
@@ -80,6 +80,7 @@
 			body {
 				font-family: Helvetica;
 				font-size: 20px;
+				margin: 10px;
 				background: #000000;
 				color: #ffffff;
 			}
@@ -94,11 +95,7 @@
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -60%);
-				width: 40%;				
-			}
-			
-			.linkblock{
-				
+				width: 30%;				
 			}
 			
 		</style>
@@ -106,10 +103,20 @@
 </head>
 <body>
 	<div class="sweet">
-			<h1>this domain is owned by syrup</h1>
+			<h1>moonbeats available now.</h1>
 			<div class="linkblock">
-			<a href="https://twitter.com/syrup_0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a target="_blank" href="https://kaleid0skull.bandcamp.com"><h2>bandcamp</h2></a><a target="_blank" href="https://soundcloud.com/kaleid0skull"><h2>soundcloud</h2></a></div>
+			<div class="about">
+			<h3>thx for listening</h3>
 			</div>
+	<div id="volumebutton">
+		<i onclick="pauseAudio()" class="fa fa-volume-up linky"></i>
 	</div>
+	<div id="volumebutton2">
+		<i onclick="playAudio()" class="fa fa-volume-off linky2"></i>
+	</div>
+	<audio controls autoplay loop id="sweetmusic">
+		<source src="teacherspetloop.mp3" type="audio/mpeg">
+	</audio>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<title>hi</title>
+	<title>MOONPEOPLE</title>
 	<script type="text/javascript">
 		function playAudio() {
 			document.getElementById("sweetmusic").play();
@@ -19,32 +19,37 @@
 	</script>
 
 	<style>
-			@font-face {
-				@font-face { font-family: Helvetica; font-weight: bold; src: url('Helvetica-Bold.otf');}
-			} 
-			
+			@font-face { font-family: normal; src: url('FZLTCXHJW.TTF'); } 
+
+			p,li,h1,h2,h3,h4,h5,h6, {
+				font-family: normal;
+				font-size: 40px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+
 			img {
 				display: lign-block;
 				margin: 0 auto;
 				padding: 20px;
 			}
 
-			i:hover {
-				font-size: 40px;
-				transition: all 1s;
+			a:hover {
+				letter-spacing: 5px;
+				transition: all 0.1s;
 			}
 
-			i {
-				font-size: 30px;
-				transition: all 0.5s;
+			a:link {
+				text-decoration: none;
+				transition: all 0.1s;
 			}
 
 			a {
-				color: #ffffff;
+				color: #000000;
+				font-family: normal;
+				font-size: 40px;
 				margin: 0 auto;
 				padding: 20px;
-				font-family: Helvetica;
-				font-size: 15px;
 			}
 			audio {
 				display: none;
@@ -76,40 +81,25 @@
 			#volumebutton2 {
 				display: none;
 			}
-			
-			body {
-				font-family: Helvetica;
-				font-size: 20px;
-				background: #000000;
-				color: #ffffff;
-			}
-			
-			h3 {
-			font-size: 12px;
-			}
-			
-			.sweet {
-				text-align: center;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -60%);
-				width: 40%;				
-			}
-			
-			.linkblock{
-				
-			}
-			
 		</style>
 	<link rel="icon" type="image/png" href="moon-icon.png" sizes="32x32" />
 </head>
 <body>
-	<div class="sweet">
-			<h1>this domain is owned by syrup</h1>
-			<div class="linkblock">
-			<a href="https://twitter.com/syrup_0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			</div>
+	<img src="MOONPEOPLE.png">
+	<h1><a target="_blank" href="https://twitter.com/syrup_0">TWITTER.</a></h1>
+	<h1><a target="_blank" href="http://syrup0.tumblr.com/">TUMBLR.</a></h1>
+	<h1><a target="_blank" href="https://www.youtube.com/channel/UC_fbP48rDWpcKvi_rAyOHLw">YOUTUBE.</a></h1>
+	<h1><a target="_blank" href="https://soundcloud.com/kaleid0skull">SOUNDCLOUD.</a></h1>
+	<h1><a target="_blank" href="https://kaleid0skull.bandcamp.com/">BANDCAMP.</a></h1>
+	<h1><a target="_blank" href="mailto:moonboy@moonpeople.space">EMAIL.</a></h1>
+	<div id="volumebutton">
+		<i onclick="pauseAudio()" class="fa fa-volume-up linky"></i>
 	</div>
+	<div id="volumebutton2">
+		<i onclick="playAudio()" class="fa fa-volume-off linky2"></i>
+	</div>
+	<audio controls autoplay loop id="sweetmusic">
+		<source src="teacherspetloop.mp3" type="audio/mpeg">
+	</audio>
 </body>
 </html>
