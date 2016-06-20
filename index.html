@@ -1,120 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<title>hi</title>
-	<script type="text/javascript">
-		function playAudio() {
-			document.getElementById("sweetmusic").play();
-			document.getElementById("volumebutton").style.display = "block";
-			document.getElementById("volumebutton2").style.display = "none";
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<!-- -->
+		<title>syrup.</title>
+		<style>
+		p {
+		   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			font-size: 17px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: bolder;
+			line-height: 6px;
 		}
-
-		function pauseAudio() {
-			document.getElementById("sweetmusic").pause();
-			document.getElementById("volumebutton").style.display = "none";
-			document.getElementById("volumebutton2").style.display = "block";
+		.parent {
+		  position: fixed;
+		  top: 50%;
+		  left: 50%;
+		  margin-top: -55px;
+		  margin-left: -154.5px;
 		}
+		.item a {
+		  text-decoration: none;
+		}
+		/* flex */
+		.parent {
+		  display: flex;
+		  justify-content: center;
+		}
+		html {
+			animation: fuck 3s 0.5s;
+			opacity:0;
+			animation-fill-mode:both;
+		}
+		@keyframes fuck {
+			0%{opacity:0;}
+			100%{opacity:1}
+		}
+			</style>
+	</head>
 
-	</script>
+	<body bgcolor="#1a1a1a">
 
-	<style>
-			@font-face {
-				@font-face { font-family: Helvetica; font-weight: bold; src: url('Helvetica-Bold.otf');}
-			} 
-			
-			img {
-				display: lign-block;
-				margin: 0 auto;
-				padding: 20px;
-			}
-
-			i:hover {
-				font-size: 40px;
-				transition: all 1s;
-			}
-
-			i {
-				font-size: 30px;
-				transition: all 0.5s;
-			}
-
-			a {
-				color: #ffffff;
-				margin: 0 auto;
-				padding: 20px;
-				font-family: Helvetica;
-				font-size: 15px;
-			}
-			audio {
-				display: none;
-			}
-			@keyframes fadein {
-				0%{opacity:0;}
-				100%{opacity:1}
-			}
-			html {
-				animation: fadein 2s 0.5s;
-				opacity:0;
-				animation-fill-mode:both;
-			}
-			.linky {
-				cursor: pointer;
-				position: fixed;
-				top: 10px;
-				right: 10px;
-			}
-			.linky2 {
-				cursor: pointer;
-				position: fixed;
-				top: 10px;
-				right: 18px;
-			}
-			#volumebutton {
-				display: block;
-			}
-			#volumebutton2 {
-				display: none;
-			}
-			
-			body {
-				font-family: Helvetica;
-				font-size: 20px;
-				background: #000000;
-				color: #ffffff;
-				background-image: url("thing.png");
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-position: center;
-				background-size: 800px;
-			}
-			
-			h3 {
-			font-size: 12px;
-			}
-			
-			.sweet {
-				text-align: center;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -60%);
-				width: 40%;				
-			}
-			
-			.linkblock{
-				
-			}
-			
-		</style>
-	<link rel="icon" type="image/png" href="moon-icon.png" sizes="32x32" />
-</head>
-<body>
-	<div class="sweet">
-			<h1>this domain is owned by syrup</h1>
-			<div class="linkblock">
-			<a href="https://twitter.com/syrup_0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<div class="parent">
+		<div class="item">
+			 <img style="float: left; margin: 10px;" src="syrup-face-logo.png" height="110"> 
+		</div>
+			<div class="item">
+				<p><font color="f3f3f3">im <font color="808080">syrup</font>.</font></p>
+				<p><font color="f3f3f3">i make things <font color="808080">online</font>.</font></p>
+				<p><a href="https://twitter.com/syrup_0"><font color="f3f3f3">// </font><font color="9900cc">twitter</font></a></p>
+				<p><a href="https://syrup0.tumblr.com"><font color="f3f3f3">// </font><font color="9900cc">tumblr</font></a></p>
+				<p><a href="https://www.youtube.com/channel/UC_fbP48rDWpcKvi_rAyOHLw"><font color="f3f3f3">// </font><font color="9900cc">youtube</font></a></p>
+				<p><a href="https://soundcloud.com/syrxp"><font color="f3f3f3">// </font><font color="9900cc">soundcloud</font></font></a></p>
+				<p><a href="https://syrxp.bandcamp.com/releases"><font color="f3f3f3">// </font><font color="9900cc">bandcamp</font></a></p>
+				<p><a href="mailto:moonboy@moonpeople.space"><font color="f3f3f3">// </font><font color="9900cc">mail</font></a></p>
 			</div>
 	</div>
-</body>
+
+	</body>
+
 </html>
