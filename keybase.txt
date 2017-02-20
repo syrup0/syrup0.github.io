@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/syrup
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://syrup.blue
+  * I am syrup (https://keybase.io/syrup) on keybase.
+  * I have a public key with fingerprint 1E75 59EF 4EF2 86A1 86B4  47B2 752E 6DC9 9056 C1B0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120794f5864994d9af0c687f90a8a390425ce41a21bac38736bba703ab4f0b310e20a",
+            "fingerprint": "1e7559ef4ef286a186b447b2752e6dc99056c1b0",
+            "host": "keybase.io",
+            "key_id": "752e6dc99056c1b0",
+            "kid": "010156827aebe2ba0b321d01090e0736cb56b1e80b6903adb6d7c5ebf64f27ff9bd00a",
+            "uid": "b1ac925abd78d567db945a680efbc119",
+            "username": "syrup"
+        },
+        "service": {
+            "hostname": "syrup.blue",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1487619926,
+    "expire_in": 157680000,
+    "prev": "110a186616e6b2a11751eb6d91aaec051202255b16dcaf2e987055f8df6c0b1a",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMNmAnicbZJ9TFZVHMefB1ReBIRQliFLr9BCkZ1zn/v6SG/KZEEpEDJ0vHTPvefC
+hefN5wUlfAQLNmRIsDlpq8CcaQUme4CRjC1AIMVsNQhkEazAGimBvIRJrO5lufVH
+55+z87vf7+9+ft9zegO9df56V6z5Vk16d7P+dnetS5fRmJBeTCCrVEQYi4kCvLZh
+k4QdzpwCRSKMBIAkYHlKpjmG4nlK4gUZiAzHyjwQOMHAA4qkRUxBgYRIEA0ca2AQ
+ElhgEBAlA2SAAJNAIGIIWbHkYrvNrlicaluIWZrmsUxhmeQYAXIMoigWkSxNYkYS
+eR7QjAgRUI15VofmUOGQ4MCxilWtqYecNbz/0T/hBpBmOJIVMMIkElQUEkpqlQcY
+qJAiohkEMQcQw6uwEmIkVqQxkhlKJllZ5pEE1rhda+0QFESepAUksZxEM6yEeIoW
+GA5gGYkQ8prQge0WwYxVtaPI7rIR7hhCLRUqItZS1cb47+dYZHJh1WazW51W0WpS
+63lOp82o2ZxFNk13HKOcfzvkIMUiqQmqhkJsdyhWC2GEqlJ0KlpLSHEsA3meZGII
+fMKm2HGOoiloVkVUl/YbXKjlDoEWNgMZzCBSgJClIVZn56EgYBHQ6m2TJE0jqIYq
+yCTmORbQtMxJMiMCNQRCm+mYxUoYWRVTyNWmUXItgtNlx4S7pztznU7vr9uw3kt7
+WTp/v+An7y0maNPqlmcDnUd/m7DlnbxTb5qMXJwZ+rWpvMMbB9ZbZ+qU1qsr1bPP
+e3wfp22fj9BH9MbFep7RN+zwtGe3/YV6WmZTFz4uGeyf3ljlcylEib5mAKcWJ34v
+HN47kf56wcHhD1dTyvx951I78s+ONWaGnXN/yYW+gr6IN/80f3zwhYKw+vxPUpUs
+EFy20MA1VWU1KduY5ZC6Rw2u9HfYPXf/zK6v2bfKVD8On+SZpR1jh0vydyaZ73fd
+iSvpS+JHB+Evc1GBhqB1Gy61XgnZrZirb1UmpnmH/r09+pDfaJ3Hq7T0+0TTSEbL
+az4HDlqmV+H1zriAgIEan+bbYTHhXZ2na3UpVZ2Tzm9vjG8u1HUf8WrfuTX/pl9j
+27J7n9C6MN0X9ceB/SavqgcWuFJ5YfTeV2DP5YcvbwzyHFbarb0+7vT4/ORej3tl
+4NWFz4dGE362vYnPV1haRoKsIVtwUvPeby5/dPJIeFLaD0Nb711oSZlqIMPD1nNl
+T8lj8rGXkjcdbZTmnE9Hhs4M3+8+sTtj12zU0vy7AdeWPZXvmzpOnZMGIsjxio7a
+qb4PoqJLM9/q9XjKLl55sTx5ZCnyx82LDzw3dJVZYqRf+Wen887H3kx8CKi7U3XP
+zXX2VATVXPzaZLj+XVfwtsGaNwbo/iU2+73+s/o2Pi7hjNL/dvy476OrxjNmIXrX
+p8WH/gFbtrzq
+=AGWt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/syrup
+
+==================================================================
