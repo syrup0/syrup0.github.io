@@ -22,25 +22,21 @@
 				font-weight: bold;
 				line-height: 6px;
 			}
-			.parent {
-			  position: fixed;
-			  top: 50%;
-			  left: 50%;
-			  margin-top: -55px;
-			  margin-left: -154.5px;
-			}
 			.item a {
-			  text-decoration: none;
+				text-decoration: none;
 			}
 			/* flex */
-			.parent {
-			  display: flex;
-			  justify-content: center;
+			.flexman>div {
+				display: flex;
 			}
 			html {
 				animation: fuck 3s 0.5s;
 				opacity:0;
 				animation-fill-mode:both;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%);
 			}
 			@keyframes fuck {
 				0%{opacity:0;}
@@ -62,25 +58,41 @@
 				text-decoration: none;
 				transition: all 0.1s;
 			}
+			.flexman {
+				display: flex;
+				justify-content: center;
+				align-item: center;
+				height: 100%;
+			}
 		</style>
 	</head>
-
-	<body bgcolor="#080808">
-		<div class="parent">
-			<div class="item">
-				 <img style="float: left; margin: 10px;" src="syrup-logoo.jpg" height="110"> 
-			</div>
-				<div class="item">
-					<p><font color="f3f3f3">im syrup,</font></p>
-					<p><font color="f3f3f3">a rapper and musician working mostly independently</font></p>
-					<p><font color="f3f3f3">he/they.</font></p>
-					<p><font color="f3f3f3">// </font><a href="https://twitter.com/xxssyx"><font color="f3f3f3">twitter</font></a></p>
-					<p><font color="f3f3f3">// </font><a href="https://soundcloud.com/syrxp"><font color="f3f3f3">soundcloud</font></font></a></p>
-					<p><font color="f3f3f3">// </font><a href="https://syrxp.bandcamp.com/releases"><font color="f3f3f3">bandcamp</font></a></p>
-					<p><font color="f3f3f3">// </font><a href="https://www.youtube.com/channel/UCWYbwt98Cz28_FkKUiEJIlg"><font color="f3f3f3">youtube</font></a></p>
-					<p><font color="f3f3f3">// </font><a href="mailto:info@syrup.fyi"><font color="f3f3f3">mail</font></a></p>
+		<body bgcolor="#080808">
+			<div class="flexman">
+				<div class="parent">
+					<div class="item">
+						 <img style="float: left; margin: 10px;" src="syrup-logoo.jpg" height="110"> 
+					</div>
+						<div class="item">
+							<p><font color="f3f3f3">im syrup,</font></p>
+							<br>
+							<p><font color="f3f3f3">a rapper/musician working mostly independently.</font></p>
+							<br>
+							<p><font color="f3f3f3">you can find my music on most streaming platforms,</font></p>
+							<p><font color="f3f3f3">including spotify, itunes, apple music, tidal &etc.</font></p>
+							<br>
+							<p><font color="f3f3f3">he/they.</font></p>
+							<br>
+							<br>
+							<p><font color="f3f3f3">here are some links:</font></p>
+							<br>
+							<p><font color="f3f3f3">// </font><a href="https://twitter.com/xxssyx"><font color="f3f3f3">twitter</font></a></p>
+							<p><font color="f3f3f3">// </font><a href="https://soundcloud.com/syrxp"><font color="f3f3f3">soundcloud</font></font></a></p>
+							<p><font color="f3f3f3">// </font><a href="https://syrxp.bandcamp.com/releases"><font color="f3f3f3">bandcamp</font></a></p>
+							<p><font color="f3f3f3">// </font><a href="https://www.youtube.com/channel/UCWYbwt98Cz28_FkKUiEJIlg"><font color="f3f3f3">youtube</font></a></p>
+							<p><font color="f3f3f3">// </font><a href="mailto:info@syrup.fyi"><font color="f3f3f3">mail</font></a></p>
+						</div>
 				</div>
-		</div>
+			</div>
 	</body>
 
 </html>
